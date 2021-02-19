@@ -1,6 +1,8 @@
 //
 // Splits a FISERV TAX document batch into folders with a maximum of N documents in each one
 //
+// Node async fs: https://2ality.com/2019/11/nodejs-streams-async-iteration.html
+//
 const fs = require('fs');
 const readline = require('readline');
 //const minimist = require('minimist');
